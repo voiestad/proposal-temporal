@@ -685,6 +685,7 @@
         <dd></dd>
       </dl>
       <emu-alg>
+        1. Assert: _hour_, _minute_, _second_, _millisecond_, _microsecond_, and _nanosecond_ are non-negative.
         1. Set _microsecond_ to _microsecond_ + floor(_nanosecond_ / 1000).
         1. Set _nanosecond_ to _nanosecond_ modulo 1000.
         1. Set _millisecond_ to _millisecond_ + floor(_microsecond_ / 1000).
